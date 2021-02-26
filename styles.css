@@ -1,21 +1,52 @@
+*{
+  scroll-behavior: smooth !important;
+}
+
 body{
   font-family: 'Crimson Text', serif;
 }
 
 .cursive-text{
-  font-style:italic;
   font-weight: 600;
+  font-size: 30px;
 }
 
 .masthead {
     height: 100vh;
     min-height: 500px;
-    background-image: url('imgs/platia-feinkost-pX5h48q0poY-unsplash.jpg');
+    background-image: url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+.img-overlay{
+  background-color:  rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
 h5{
   font-weight: 500;
+}
+
+.aboutUsText{
+  font-size: 1.2em;
+  letter-spacing: .05em;
+  line-height: 150%;
+}
+
+.table > tbody > tr > th{
+  border: none;
+}
+
+footer{
+  background-color: #F8F9FA;
+}
+
+.blackLink{
+  color: black;
+}
+
+.blackLink:hover {
+  color: black;
 }
